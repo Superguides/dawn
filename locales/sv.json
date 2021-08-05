@@ -655,8 +655,102 @@
           },
           "multiple_subscriptions_shipping_price_label": "%{shipping_price } per leverans",
           "prepaid_shipping_price_label": "%{shipping_price } per leverans x %{delivery_interval_count }",
-          "initial_order_discounted": "Först fraktkostnad %{discounted_shipping_cost }, sedan %{frequency_description }"
+          "initial_order_discounted": "Först fraktkostnad %{discounted_shipping_cost }, sedan %{frequency_description }",
+          "prepaid_initial_order_discounted": "Första fraktkostnaden %{discounted_shipping_price } %{prepaid_delivery_frequency }",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Första fraktkostnaden %{discounted_shipping_price } %{prepaid_delivery_frequency } (%{discounted_cost_per_delivery })",
+          "prepaid_initial_order_discounted_with_renewal": "Först fraktkostnad %{discounted_shipping_price } %{prepaid_delivery_frequency }, sedan %{shipping_price } %{billing_cycle }",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Första fraktkostnaden %{discounted_shipping_price } %{prepaid_delivery_frequency } (%{discounted_cost_per_delivery }), sedan %{shipping_price } %{billing_cycle }",
+          "shipping_price_included": "Ingår",
+          "recurring_order_shipping_price": "följt av %{recurring_order_shipping_price }",
+          "first_order_shipping_price_included": "Första beställningen ingår, följt av %{recurring_order_shipping_price }",
+          "first_order_different_shipping_price": "%{first_order_shipping_price } (%{per_delivery_price } per leverans), följt av %{recurring_order_shipping_price }",
+          "first_n_order_free": {
+            "one": "Första beställningen gratis",
+            "other": "Första beställningarna %{count } gratis"
+          },
+          "free_for_first_n_order": {
+            "one": "För första order",
+            "other": "För första beställningarna %{count }"
+          }
+        },
+        "one_time_purchase_shipping": "Engångsleverans"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Ytterligare information"
         }
+      },
+      "payment": {
+        "amazon_payments_label": "Amazon Pay",
+        "amazon_payments_login_hint": "Du kommer att bli ombedd att logga in med Amazon.",
+        "amazon_payments_logout": "Logga ut från Amazon Pay",
+        "amazon_payments_failed_mfa_challenge": "Den valda betalningsmetoden kunde inte användas. Välj en annan metod eller kontakta din bank eller kortutgivare.",
+        "amazon_payments_abandoned_mfa_challenge": "Din betalning kunde inte slutföras. Prova med en annan betalningsmetod eller kontakta din bank eller kortutgivare.",
+        "amazon_payments_could_not_enqueue_authorize": "Det uppstod ett problem när din betalning skulle behandlas. Försök igen eller använd en annan betalningsmetod.",
+        "title": "Betalning",
+        "amount_left_to_pay_label": "Betalning:",
+        "discount_button_action_label": "Tillämpa rabattkod",
+        "gift_card_code_label": "Presentkortskod",
+        "apply_gift_card_button_label": "Tillämpa",
+        "gift_card_balance_label": "Balans:",
+        "supported_card_brands_more_label": "och mer…",
+        "detected_card_brand": "Upptäckt kortmärke: {varumärke }",
+        "card_number_label": "Kortnummer",
+        "card_number_placeholder": "Kortnummer",
+        "card_pay_with": "Betala med:",
+        "card_security_notice": "Alla transaktioner är säkra och krypterade.",
+        "card_security_vault_notice": "Vi behöver dina uppgifter för framtida betalningar. Alla transaktioner är säkra och krypterade.",
+        "card_information_notice": "Alla transaktioner är säkra och krypterade. Kreditkortsinformation lagras aldrig.",
+        "name_on_card_label": "namn på kort",
+        "name_on_card_placeholder": "namn på kort",
+        "card_expiry_label": "Utgångsdatum (MM \/ ÅÅ)",
+        "card_expiry_placeholder": "Utgångsdatum (MM \/ ÅÅ)",
+        "credit_card_start_month": "Startmånad",
+        "credit_card_start_year": "Startår",
+        "card_verification_value_label": "Säkerhetskod",
+        "card_verification_value_placeholder": "Säkerhetskod",
+        "card_expiry_date_explanation": "Kortets utgångsdatum i format: månad, månad, år, år",
+        "card_expiration_month_label": "Utgångs Månad",
+        "card_expiration_year_label": "Utgångsår",
+        "card_verification_value_explanation": "Tresiffrig säkerhetskod som vanligtvis finns på baksidan av ditt kort. American Express-kort har en fyrsiffrig kod på framsidan.",
+        "card_verification_value_explanation_amex": "4-siffrig säkerhetskod på kortets framsida",
+        "card_verification_value_explanation_other": "Tresiffrig säkerhetskod på baksidan av ditt kort",
+        "card_start_label": "Utgivningsdatum (MM \/ ÅÅ)",
+        "card_start_placeholder": "Utgivningsdatum (MM \/ ÅÅ)",
+        "card_issue_number_label": "Problemnummer",
+        "card_issue_number_placeholder": "Problemnummer",
+        "card_change_label": "Förändra",
+        "card_update_label": "Uppdatera kort",
+        "ends_with_label": "slutar med %{last_digits }",
+        "masked_digits_label": "•••• %{last_digits }",
+        "saved_by_payment_method": "Sparad av %{payment_method }",
+        "pay_with_payment_method": "Betala med %{payment_method }",
+        "same_billing_address_label": "Samma som leveransadressen",
+        "different_billing_address_label": "Använd en annan faktureringsadress",
+        "free_order_notice_html": "Din beställning är <strong> gratis <\/strong>. Ingen betalning krävs.",
+        "express_checkout_free_order": "Du kommer inte att debiteras för en gratis beställning",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Din beställning omfattas av ditt presentkort.",
+          "other": "Din beställning omfattas av dina presentkort."
+        },
+        "offsite_gateway_redirect_hint": "När du har klickat på “%{button_label }” omdirigeras du till %{gateway_label } för att slutföra köpet på ett säkert sätt.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label } totalt %{total_shop_price }",
+        "billing_address_title": "Fakturaadress",
+        "billing_address_description": "Välj adressen som matchar ditt kort eller din betalningsmetod.",
+        "billing_address_description_no_shipping_address": "Ange adressen som matchar ditt kort eller din betalningsmetod.",
+        "no_js_credit_card_fields_redirect_hint": "Du omdirigeras för att lägga till din betalningsinformation.",
+        "card_fields_container_prefix": "Fältbehållare för:",
+        "card_fields_unavailable_html": {
+          "one": "Kredit- och betalkortbetalningar är inte tillgängliga just nu. <br> <a href=\"%{current_url} \"> Uppdatera den här sidan <\/a> eller försök igen senare.",
+          "other": "Kredit- och betalkortbetalningar är inte tillgängliga just nu. <br> <a href=\"%{current_url} \"> Uppdatera den här sidan <\/a> eller prova en annan betalningsmetod."
+        },
+        "card_fields_processing_error": "Det uppstod ett problem vid hanteringen av betalningen. Prova att uppdatera den här sidan eller kontrollera din internetanslutning.",
+        "technical_error": "Betalningar kan inte behandlas just nu på grund av ett tekniskt problem. Försök igen om några minuter.",
+        "no_method_error": "Den här butiken kan inte ta emot betalningar just nu.",
+        "not_configured_error": "Den här butiken kan inte ta emot betalningar just nu.",
+        "missing_credit_card_error": "Ange dina kortuppgifter för att slutföra betalningen",
+        "billing_address_not_supported_for_payment_method_error": "Den här betalningsmetoden är inte tillgänglig för din faktureringsadress och valuta. Prova en annan betalningsmetod.",
+        "generic_incorrect_card_info": "Det gick inte att verifiera dina betalningsuppgifter. Kontrollera dina kortuppgifter och försök igen."
       }
     }
   }
