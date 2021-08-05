@@ -8,7 +8,7 @@
       "login_form_error": "Fel lösenord!",
       "login_form_submit": "Ange",
       "modal": "Lösenordsmodal",
-      "admin_link_html": "Är du butiksägare? <a href=\"/admin\" class=\"link underlined-link\">Logga in här</a>",
+      "admin_link_html": "Är du butiksägare? <a href=\"\/admin\" class=\"link underlined-link\">Logga in här<\/a>",
       "powered_by_shopify_html": "Denna butik kommer drivas av {{ shopify }}"
     },
     "social": {
@@ -129,8 +129,8 @@
         "view_store_info": "Visa butiksinformation",
         "check_other_stores": "Kontrollerar tillgänglighet i andra butiker",
         "pick_up_available": "Hämtning tillgänglig",
-        "pick_up_available_at_html": "Hämtning tillgänglig på <span class=\"color-foreground\">{{ location_name }}</span>",
-        "pick_up_unavailable_at_html": "Det går för närvarande inte att få hämtning på <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_available_at_html": "Hämtning tillgänglig på <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Det går för närvarande inte att få hämtning på <span class=\"color-foreground\">{{ location_name }}<\/span>",
         "unavailable": "Det gick inte att ladda hämtningstillgänglighet",
         "refresh": "Uppdatera"
       },
@@ -194,9 +194,9 @@
       "empty": "Din varukorg är tom",
       "cart_error": "Ett fel uppstod när du uppdaterade din varukorg. Försök igen.",
       "cart_quantity_error_html": "Du kan endast lägga till [antal] av denna artikel i din varukorg.",
-      "taxes_and_shipping_policy_at_checkout_html": "Skatt och <a href=\"{{ link }}\">frakt</a> beräknas i kassan",
+      "taxes_and_shipping_policy_at_checkout_html": "Skatt och <a href=\"{{ link }}\">frakt<\/a> beräknas i kassan",
       "taxes_included_but_shipping_at_checkout": "Skatt ingår och frakt beräknas i kassan",
-      "taxes_included_and_shipping_policy_html": "Skatt ingår. <a href=\"{{ link }}\">Frakt</a> beräknas i kassan.",
+      "taxes_included_and_shipping_policy_html": "Skatt ingår. <a href=\"{{ link }}\">Frakt<\/a> beräknas i kassan.",
       "taxes_and_shipping_at_checkout": "Skatt och frakt beräknas i kassan",
       "headings": {
         "product": "Produkt",
@@ -245,14 +245,14 @@
       "max_price": "Det högsta priset är {{ price }}",
       "reset": "Återställ",
       "to": "Till",
-      "use_fewer_filters_html": "Använd färre filter eller <a class=\"{{ class }}\" href=\"{{ link }}\">rensa alla</a>"
+      "use_fewer_filters_html": "Använd färre filter eller <a class=\"{{ class }}\" href=\"{{ link }}\">rensa alla<\/a>"
     }
   },
   "localization": {
-    "country_label": "Land/Region",
+    "country_label": "Land\/Region",
     "language_label": "Språk",
     "update_language": "Uppdatera språk",
-    "update_country": "Uppdatera land/region"
+    "update_country": "Uppdatera land\/region"
   },
   "customer": {
     "account": {
@@ -281,7 +281,7 @@
       "address1": "Adress 1",
       "address2": "Adress 2",
       "city": "Stad",
-      "country": "Land/Region",
+      "country": "Land\/Region",
       "province": "Provins",
       "zip": "Postnummer",
       "phone": "Telefon",
@@ -375,6 +375,100 @@
       "expired": "Har gått ut",
       "copy_code_success": "Koden kopierades",
       "print_gift_card": "Skriv ut"
+    }
+  },
+  "shopify": {
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": "och",
+      "last_word_connector": ", och"
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Kolla upp",
+        "error_page_title": "Fel",
+        "skip_to_content": "Hoppa till innehåll",
+        "breadcrumb": "Brödsmula",
+        "continue_button_label": "Fortsätta",
+        "complete_purchase_button_label": "Komplett beställning",
+        "pay_now_button_label": "Betala nu",
+        "authenticate_purchase_button_label": "Verifiera betalning",
+        "edit_link_label": "Redigera",
+        "all_rights_reserved": "Alla rättigheter förbehållna %{shop_name }",
+        "print_policies_link_label": "Skriva ut",
+        "cart": "Vagn",
+        "close_modal_label": "Stänga",
+        "close_notice_label": "Stänga",
+        "expand_notice_label": "Visa mer",
+        "continue_to_shipping_method": "Fortsätt till frakt",
+        "continue_to_payment_method": "Fortsätt till betalning",
+        "continue_to_review": "Granska order",
+        "back_to_cart": "Återgå till vagnen",
+        "back_to_contact_information": "Återgå till information",
+        "back_to_shipping_method": "Återgå till frakt",
+        "back_to_payment_method": "Återgå till betalning",
+        "choose_shipping_method": "Välj en fraktmetod",
+        "choose_payment_method": "Välj en betalningsmetod",
+        "choose_billing_address": "Välj en fakturaadress",
+        "contact_us_html": "Kontakta oss för mer information",
+        "autocomplete_title": "Förslag",
+        "autocomplete_single_item": "1 objekt tillgängligt",
+        "autocomplete_multi_item": "{{nummer }} objekt tillgängliga",
+        "autocomplete_selection": "{{nummer }} av {{totalt }}",
+        "autocomplete_close": "Stäng förslag",
+        "forwarding_indicator": {
+          "new_window": "Öppnas i ett nytt fönster.",
+          "external": "Öppnar extern webbplats.",
+          "external_and_new_window": "Öppnar extern webbplats i ett nytt fönster."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name } - Kassa"
+        },
+        "tooltip_accessibility_label": "Mer information"
+      },
+      "contact": {
+        "title": "Information",
+        "address_title": "Adress",
+        "shipping_address_title": "Leveransadress",
+        "delivery_option_title": "Leverans metod",
+        "contact_method_title": "Kontaktinformation",
+        "email_label": "E-post",
+        "email_placeholder": "E-post",
+        "email_or_phone_label": "E -post eller mobiltelefonnummer",
+        "email_or_phone_placeholder": "E -post eller mobiltelefonnummer",
+        "stored_addresses_label": "Sparade adresser",
+        "new_address_label": "Använd en ny adress",
+        "first_name_label": "Förnamn",
+        "optional_first_name_label": "Förnamn (valfritt)",
+        "last_name_label": "Efternamn",
+        "company_label": "Företag",
+        "optional_company_label": "Företag (valfritt)",
+        "address1_label": "Adress",
+        "address2_label": "Lägenhet, svit etc.",
+        "optional_address2_label": "Lägenhet, svit, etc. (valfritt)",
+        "city_label": "Stad",
+        "country_label": "Land\/region",
+        "country_code": "Land\/regionskod",
+        "province_label": "Provins",
+        "province_placeholder": "Provins",
+        "county_label": "Grevskap",
+        "county_placeholder": "Grevskap",
+        "state_label": "stat",
+        "state_placeholder": "stat",
+        "region_label": "Område",
+        "region_placeholder": "Område",
+        "region_none": "Ingen vald",
+        "prefecture_label": "Prefektur",
+        "prefecture_placeholder": "Prefektur",
+        "governorate_label": "Governorate",
+        "governorate_placeholder": "Governorate",
+        "emirate_label": "Emirat",
+        "emirate_placeholder": "Emirat",
+        "state_and_territory_label": "Stat\/territorium",
+        "state_and_territory_placeholder": "Stat\/territorium",
+        "phone_label": "Telefon",
+        "optional_phone_label": "Telefon (valfritt)"
+      }
     }
   }
 }
