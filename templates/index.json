@@ -77,9 +77,9 @@
         "button"
       ],
       "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
+        "height": "small",
+        "color_scheme": "accent-1",
+        "layout": "text_first"
       }
     }
   },
