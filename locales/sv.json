@@ -555,7 +555,108 @@
         "pickup_label": "Plocka upp",
         "no_pickup_location": "Din beställning är inte tillgänglig för upphämtning. Ange en leveransadress.",
         "tip_label": "Dricks",
-        "calculating_shipping": "Beräknande…"
+        "calculating_shipping": "Beräknande…",
+        "shipping_default_value": "Beräknas i nästa steg",
+        "shipping_pending_value": "-",
+        "shipping_pending_message": "Inte tillgänglig än",
+        "shipping_policy_link": "Fraktkostnader",
+        "taxes_label": "Skatter",
+        "estimated_taxes_label": "Skatter (uppskattade)",
+        "total_label": "Total",
+        "total_outstanding_label": "Summa att betala",
+        "partial_total_label": "Total",
+        "free_total_label": "Fri",
+        "paid_label": "Betald",
+        "payment_due_label": "Betalning",
+        "vat_label_html": "Inklusive %{mount } i skatter",
+        "discount_and_gift_card_savings_notice": "Efter %{discount_amount } i rabatter och %{gift_card_amount } i presentkort",
+        "discount_savings_notice": "Efter %{discount_amount } i rabatter",
+        "gift_card_savings_notice": "Efter %{gift_card_amount } i presentkort",
+        "cost_table_title": "Kostnadsöversikt",
+        "description_label": "Beskrivning",
+        "price_label": "Pris",
+        "quantity_label": "Kvantitet",
+        "product_change_label": "Förändra",
+        "product_image_label": "Produktbild",
+        "scroll_order_summary": "Bläddra för fler objekt",
+        "expand_order_summary": "Visa beställningssammanfattning",
+        "collapse_order_summary": "Dölj beställningssammanfattning",
+        "original_price": "Original pris",
+        "sale_price": "Försäljningspris",
+        "total_updated_label": "Uppdaterat totalpris:",
+        "order_total_updated_label": "Totalt uppdaterat",
+        "total_already_paid_label": "Redan betalat",
+        "unit_price": {
+          "accessible_separator": "per",
+          "content_html": "%{pris } %{accessible_separator } %{per_unit }"
+        },
+        "gift_card_ending": "Presentkort som slutar med %{last_characters }",
+        "estimated_tax_label": "Beräknad skatt",
+        "multiple_shipping_lines_label": "Frakt totalt",
+        "recurring_total_label": "Återkommande totalt",
+        "recurring_total_tooltip": "Inkluderar inte frakt, skatt, tullar eller tillämpliga rabatter.",
+        "confirmation_number_label": "Bekräftelse #%{bekräftelse_nummer }"
+      },
+      "shipping": {
+        "title": "Frakt",
+        "shipping_method_title": "Frakt metod",
+        "shipping_method_one_time_purchase_group_title": "Engångsköp",
+        "shipping_method_subscription_group_title": "Prenumeration",
+        "subscription_shipping": "Prenumerationsfrakt",
+        "waiting_on_rate_notice": "Få tillgängliga fraktpriser ...",
+        "waiting_on_pickup_location_notice": "Få tillgängliga hämtningsplatser ...",
+        "no_rates_for_cart_or_destination_notice": "Det finns inga leveransmetoder tillgängliga för din kundvagn eller adress",
+        "no_pickup_location_notice": "Minst en av dina produkter går inte att hämta",
+        "no_rates_for_country_notice": "Vi erbjuder inte frakt till %{land }.",
+        "no_rates_contact_notice": "Kontakta oss för mer information",
+        "free_rate_label": "Fri",
+        "cheapest_rate_label": "Billigast",
+        "please_enter_your_shipping_information_notice": "Ange din leveransinformation.",
+        "estimated_delivery_date": {
+          "one": "1 arbetsdag",
+          "other": "%{count } arbetsdagar"
+        },
+        "estimated_delivery_date_range": "%{ minimum } till %{ max } arbetsdagar",
+        "shipping_line_phone_label": "Mobiltelefonnummer (obligatoriskt)",
+        "shipping_line_phone": "Din kurir kan använda detta nummer för att kontakta dig.",
+        "shipping_line_delivery_phone_label": "mobilnummer",
+        "shipping_line_delivery_phone": "Vi kan använda detta nummer för att ringa eller sms: a om din leverans.",
+        "optional_shipping_line_delivery_instructions_label": "Leveransinstruktioner (valfritt)",
+        "shipping_line_delivery_instructions": "Ange nödvändig information som dörrkoder eller paketinlämningsinstruktioner.",
+        "other_method": {
+          "zero": "Inga andra metoder tillgängliga",
+          "one": "1 annan metod tillgänglig på",
+          "other": "%{count } andra metoder tillgängliga från"
+        },
+        "shipping_rate_discounted_amount": "Var: %{original_amount }. Nu: %{mount }",
+        "local_delivery": "Lokal leverans",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "för %{count } leverans",
+            "other": "för %{count } leveranser"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "varje dag",
+              "other": "var %{count } dag"
+            },
+            "week": {
+              "one": "varje vecka",
+              "other": "var %{count } vecka"
+            },
+            "month": {
+              "one": "varje månad",
+              "other": "var %{count } månad"
+            },
+            "year": {
+              "one": "varje år",
+              "other": "vart %{räknat } år"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price } per leverans",
+          "prepaid_shipping_price_label": "%{shipping_price } per leverans x %{delivery_interval_count }",
+          "initial_order_discounted": "Först fraktkostnad %{discounted_shipping_cost }, sedan %{frequency_description }"
+        }
       }
     }
   }
