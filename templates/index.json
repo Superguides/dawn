@@ -26,8 +26,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/bbbxnac-Dior-37.jpg",
-        "image_2": "shopify:\/\/shop_images\/ahkqsrfh-344A4896.jpg",
+        "image": "shopify:\/\/shop_images\/dhaqvfrf-Dior-21.jpg",
+        "image_2": "shopify:\/\/shop_images\/https___www.brandsdistribution.com_ftp_home2013_gallery_gucci-16.jpg",
         "desktop_text_box_position": "flex-start",
         "color_scheme": "accent-1",
         "stack_images_on_mobile": true,
@@ -50,6 +50,7 @@
     },
     "image_text": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -81,11 +82,18 @@
         "color_scheme": "accent-1",
         "layout": "text_first"
       }
+    },
+    "1628162514411f3a01": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
-    "image_text"
+    "image_text",
+    "1628162514411f3a01"
   ]
 }
